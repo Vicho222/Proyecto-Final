@@ -131,7 +131,7 @@ public class HexGameBoard extends GameBoard<HexPosition> {
 	 * el borde
 	 */
 	public boolean isAtBorder(HexPosition position) {
-		int localSize = size - 1;
+		int localSize = size;
 		return Math.abs(position.getQ()) == localSize || Math.abs(position.getR()) == localSize
 				|| Math.abs(position.getS()) == localSize;
 	}

@@ -1,6 +1,9 @@
-package com.atraparalagato.impl.model;
+package com.atraparalgato.impl.model;
 
 import org.junit.jupiter.api.Test;
+
+import com.atraparalagato.impl.model.HexPosition;
+
 import org.junit.jupiter.api.BeforeEach;
 import static org.junit.jupiter.api.Assertions.*;
 
